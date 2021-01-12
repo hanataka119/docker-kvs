@@ -5,4 +5,4 @@ WORKDIR /src
 COPY ./src/server.py /src/
 ENV REDIS_HOST: 127.0.0.1
 ENV PORT 80
-CMD ["python", "-u", "/server.py"]
+CMD ["python", "-u", "/src/server.py"]
